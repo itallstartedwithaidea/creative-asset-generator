@@ -11,8 +11,8 @@
 
 The complete solution for validating, organizing, and optimizing advertising creative assets across 50+ platforms. Built for marketing teams, agencies, and enterprises.
 
-**Live:** [creativeassetvalidator.com](https://creativeassetvalidator.com)
-**Repository:** [github.com/itallstartedwithaidea/creative](https://github.com/itallstartedwithaidea/creative)
+**Live:** [googleadsagent.ai/tools/creative-validator](https://googleadsagent.ai/tools/creative-validator/app.html)
+**Repository:** [github.com/itallstartedwithaidea/creative-asset-generator](https://github.com/itallstartedwithaidea/creative-asset-generator)
 **Parent Project:** [googleadsagent.ai](https://googleadsagent.ai)
 
 ---
@@ -799,4 +799,4 @@ Copyright 2024–2026 It All Started With An Idea
 
 Built for creative teams who demand precision and efficiency.
 
-[itallstartedwithaidea.com](https://itallstartedwithaidea.com) · [googleadsagent.ai](https://googleadsagent.ai) · [GitHub](https://github.com/itallstartedwithaidea/creative)
+[itallstartedwithaidea.com](https://itallstartedwithaidea.com) · [googleadsagent.ai](https://googleadsagent.ai) · [GitHub](https://github.com/itallstartedwithaidea/creative-asset-generator)
