@@ -11,10 +11,17 @@ import cloudinary.api
 from cloudinary import CloudinaryVideo
 import sys
 
-# Your Cloudinary credentials example below
-//CLOUD_NAME = "drqvv2lrs"
-//API_KEY = "462480066637115"
-//API_SECRET = "qpO2cPl2ryutCxCZeE09EVBC1WE"
+# Cloudinary credentials — set via environment variables, never hardcode:
+#   export CLOUDINARY_CLOUD_NAME="your-cloud-name"
+#   export CLOUDINARY_API_KEY="your-api-key"
+#   export CLOUDINARY_API_SECRET="your-api-secret"
+import os
+CLOUD_NAME = os.environ.get("CLOUDINARY_CLOUD_NAME", "")
+API_KEY = os.environ.get("CLOUDINARY_API_KEY", "")
+API_SECRET = os.environ.get("CLOUDINARY_API_SECRET", "")
+
+if not all([CLOUD_NAME, API_KEY, API_SECRET]):
+    sys.exit("Missing Cloudinary credentials. Set CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY, CLOUDINARY_API_SECRET.")
 
 # Configure Cloudinary
 cloudinary.config(
